@@ -57,9 +57,9 @@ nav {
   color: #454545;
 }
 
-/* .active :hover {
+.active :hover {
   border-bottom: 4px solid #001ff9;
-} */
+}
 
 .hover-underline-animation:after {
   content: "";
