@@ -44,6 +44,7 @@ nav {
 .nav-items li {
   margin-left: 1.75em;
   font-size: 18px;
+  font-family: "Open Sans", sans-serif;
 }
 
 .hover-underline-animation {
@@ -89,17 +90,21 @@ nav {
 
 .topic-title {
   font-size: 3rem;
+  font-family: "Open Sans", sans-serif;
   font-weight: bolt;
   margin: 3rem 0rem;
 }
 
 .blog-description {
-  font-size: 1.5rem;
+  font-size: 17px;
+  font-weight: 400px;
   margin-bottom: 1.5rem;
+  color: #000000;
+  font-family: "Open Sans", sans-serif;
 }
 
 hr {
-  color: #454545;
+  color: #e5e5e5;
 }
 
 .blog-post {
@@ -108,12 +113,13 @@ hr {
   gap: 22px;
   justify-content: center;
   align-items: center;
-  padding-bottom: 15px;
+  font-family: "Open Sans", sans-serif;
 }
 
 .blog {
   background-color: #eaeaea;
   margin-bottom: 15px;
+  font-family: "Open Sans", sans-serif;
 }
 
 .blog img {
@@ -122,22 +128,44 @@ hr {
 
 .blog h2 {
   margin: 25px;
+  color: #000000;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
 }
 
 .blog h3 {
   margin: 25px;
+  font-size: 14px;
+  color: #000000;
+  font-family: "Open Sans", sans-serif;
 }
 
 .blog p {
   margin: 25px;
+  font-size: 17px;
+  color: #000000;
+  font-family: "Open Sans", sans-serif;
 }
 
 .blog-post a {
-  color: #454545;
   text-decoration: none;
   letter-spacing: 1.5px;
+  font-family: "Open Sans", sans-serif;
 }
 
 .all-post {
-  margin: 25px 0px;
+  margin-bottom: 25px;
+  color: #000000;
+  font-family: "Open Sans", sans-serif;
+}
+
+.social-icon {
+  display: flex;
+}
+
+.social-icon a {
+  color: #0066f9;
+  font-size: 3rem;
+  margin: 2rem 1rem 2rem 0rem;
 }
