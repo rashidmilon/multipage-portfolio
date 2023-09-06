@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
 * {
   box-sizing: border-box;
 }
@@ -6,7 +8,7 @@ html,
 body {
   min-height: 100vh;
   width: 100vw;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans", "Roboto" sans-serif;
 }
 
 .container {
@@ -79,7 +81,7 @@ nav {
   transform-origin: bottom left;
 }
 
-.btn {
+.btn0 {
   background-color: #001ff9;
   color: #ffffff;
   padding: 15px 20px;
@@ -91,8 +93,15 @@ nav {
 .topic-title {
   font-size: 3rem;
   font-family: "Open Sans", sans-serif;
-  font-weight: bolt;
+  font-weight: bold;
   margin: 3rem 0rem;
+}
+
+.topic-title2 {
+  font-size: 3rem;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  margin: 13px 0rem;
 }
 
 .blog-description {
@@ -103,27 +112,39 @@ nav {
   font-family: "Open Sans", sans-serif;
 }
 
+.blog-description1 {
+  font-size: 17px;
+  font-weight: 400px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  color: #000000;
+  font-family: "Open Sans", sans-serif;
+}
+
 hr {
   color: #e5e5e5;
+  margin-bottom: 0px;
+  margin-top: 0px;
 }
 
 .blog-post {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 22px;
-  justify-content: center;
-  align-items: center;
   font-family: "Open Sans", sans-serif;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 .blog {
   background-color: #eaeaea;
-  margin-bottom: 15px;
   font-family: "Open Sans", sans-serif;
-}
-
-.blog img {
-  margin-bottom: 15px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 .blog h2 {
@@ -132,17 +153,23 @@ hr {
   font-size: 20px;
   font-weight: 700;
   font-family: "Open Sans", sans-serif;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 .blog h3 {
   margin: 25px;
+  padding-top: 0px;
+  padding-bottom: 0px;
   font-size: 14px;
   color: #000000;
   font-family: "Open Sans", sans-serif;
 }
 
 .blog p {
-  margin: 25px;
+  margin: 25px 25px 0px 25px;
+  padding-top: 0px;
+  padding-bottom: 0px;
   font-size: 17px;
   color: #000000;
   font-family: "Open Sans", sans-serif;
@@ -150,6 +177,8 @@ hr {
 
 .blog-post a {
   text-decoration: none;
+  padding-top: 0px;
+  padding-bottom: 0px;
   letter-spacing: 1.5px;
   font-family: "Open Sans", sans-serif;
 }
@@ -169,3 +198,118 @@ hr {
   font-size: 3rem;
   margin: 2rem 1rem 2rem 0rem;
 }
+
+/* form start */
+.form-container {
+  width: 1025px;
+  min-height: 300px;
+  background-color: #fff;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 0.25rem;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 2rem auto;
+}
+
+.heading {
+  width: 100%;
+  padding: 1rem;
+  background-color: #333;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}
+
+.heading h1 {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+.form-section {
+  width: 100%;
+  padding: 1rem 2rem;
+}
+
+.inline-form {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  align-items: center;
+}
+
+.form-group {
+  width: 100%;
+  margin-bottom: 2rem;
+  padding: 0.5rem;
+}
+
+.form-group > label {
+  display: block;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  text-transform: capitalize;
+  font-style: normal;
+}
+
+.form-group > input,
+textarea,
+select {
+  width: 100%;
+  outline: none;
+  border: 1px solid #ddd;
+  color: #333;
+  border-radius: 0.25rem;
+  padding: 0.25rem;
+  margin: top 0.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.8rem;
+}
+
+.radio-inline-group {
+  display: flex;
+  color: #333;
+  font-size: 0.8rem;
+}
+
+.radio-inline {
+  display: flex;
+  font-size: 0.8rem;
+  align-items: center;
+  margin-top: 0.5rem;
+  margin-right: 2rem;
+  gap: 0.5rem;
+}
+
+.bio textarea {
+  columns: 120px;
+  resize: none;
+}
+
+.btn {
+  background-color: transparent;
+  padding: 0.5rem 1rem;
+  outline: none;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.btn :hover {
+  cursor: pointer;
+}
+
+/* btn start */
+.btn-reset {
+  color: red;
+  border: 2px solid red;
+  border-radius: 0.25rem;
+}
+
+.btn-submit {
+  color: white;
+  border: 2px solid #333;
+  background-color: #333;
+  border-radius: 0.25rem;
+}
+/* form end */

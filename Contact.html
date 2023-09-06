@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="/multipage-portfolio/styles/style.css" />
+    <link rel="stylesheet" href="/multipage-portfolio/styles/reset.css" />
+    <title>multipage-portfolio</title>
+  </head>
+
+  <body>
+    <!-- nav bar start -->
+    <nav>
+      <div class="container nav-container">
+        <div class="band-logo">
+          <a href="index.html">
+            <img src="/images/logo-image.svg" alt="band-logo"
+          /></a>
+        </div>
+        <div class="nav-items">
+          <ul>
+            <li>
+              <a class="hover-underline-animation active" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a class="hover-underline-animation" href="About.html">About</a>
+            </li>
+            <li>
+              <a class="hover-underline-animation" href="Blog.html">Blog</a>
+            </li>
+            <li>
+              <a class="hover-underline-animation" href="Contact.html"
+                >Contact</a
+              >
+            </li>
+            <li>
+              <a class="hover-underline-animation btn0" href="index.html"
+                >Button</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- nav bar end -->
+
+    <!-- Main content area end  -->
+    <main>
+      <div class="container">
+        <h1 class="topic-title">Contact Us</h1>
+        <p class="blog-description">
+          Welcome to our Contact Page! If you have any questions, feedback, or
+          inquiries, we'd love to hear from you. Feel free to reach out to us
+          using the contact form below or through the provided contact
+          information. Our dedicated team is here to assist you and will respond
+          promptly. Thank you for considering us as your point of contact.
+        </p>
+        <!-- 
+        <div class="container">
+          <form>
+            <div class="form-group">
+              <div class="single-form">
+                <input
+                  type="text"
+                  id="first-name"
+                  placeholder="First Name"
+                  name="first-name"
+                />
+              </div>
+              <div class="single-form">
+                <input
+                  type="text"
+                  id="Surname"
+                  placeholder="SurName"
+                  name="Surname"
+                />
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="single-form">
+                <input
+                  type="email"
+                  id="email"
+                  placeholder="Email Address"
+                  name="email"
+                />
+              </div>
+              <div class="single-form">
+                <input
+                  type="tel"
+                  id="tel"
+                  placeholder="Phone Number"
+                  name="tel"
+                />
+              </div>
+            </div>
+            <div class="form-group">
+              <textarea
+                name="textarea"
+                id="textarea"
+                cols="120"
+                rows="5"
+                placeholder="Short Bio"
+              ></textarea>
+            </div>
+            <div class="radio-inline">
+              <label for="Gender">Gender</label>
+              <div class="radio-buttons">
+                <div>
+                  <input
+                    type="radio"
+                    name="male"
+                    id="male"
+                    placeholder="male"
+                  />
+                  <label for="male">male</label>
+                </div>
+                <div>
+                  <input
+                    type="radio"
+                    name="female"
+                    id="female"
+                    placeholder="female"
+                  />
+                  <label for="Female">Female</label>
+                </div>
+                <div>
+                  <input
+                    type="radio"
+                    name="Others"
+                    id="Others"
+                    placeholder="Others"
+                  />
+                  <label for="Others">Others</label>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div> -->
+        <div class="form-container">
+          <header class="heading">
+            <h1>Complete form design</h1>
+          </header>
+          <section class="form-section">
+            <form>
+              <div class="inline-form">
+                <div class="form-group">
+                  <label for="rashid">First Name</label>
+                  <input
+                    type="text"
+                    name="rashid"
+                    id="rashid"
+                    placeholder="Enter your first name?"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="milon">Last Name</label>
+                  <input
+                    type="text"
+                    name="milon"
+                    id="milon"
+                    placeholder="Enter your last name?"
+                  />
+                </div>
+              </div>
+              <div class="inline-form">
+                <div class="form-group">
+                  <label for="Email">Email Address</label>
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="Enter your email address"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="phone">Phone No</label>
+                  <input
+                    type="tel"
+                    name="phone"
+                    id="phone"
+                    placeholder="Enter your phone no"
+                  />
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="gender">Gender</label>
+                <div class="radio-inline-group">
+                  <div class="radio-inline">
+                    <input type="radio" id="male" name="gender" />
+                    <label for="male">male</label>
+                  </div>
+                  <div class="radio-inline">
+                    <input type="radio" id="female" name="gender" />
+                    <label for="female">female</label>
+                  </div>
+                  <div class="radio-inline">
+                    <input type="radio" id="others" name="gender" />
+                    <label for="others">others</label>
+                  </div>
+                </div>
+              </div>
+              <div class="inline-form">
+                <div class="form-group">
+                  <label for="country">Choose your country</label>
+                  <select name="country" id="country">
+                    <option value="bangladesh">bangladesh</option>
+                    <option value="bangladesh">bangladesh</option>
+                    <option value="bangladesh">bangladesh</option>
+                    <option value="bangladesh">bangladesh</option>
+                    <option value="bangladesh">bangladesh</option>
+                    <option value="bangladesh">bangladesh</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="city">Choose your city</label>
+                  <select name="city" id="city">
+                    <option value="dhaka">dhaka</option>
+                    <option value="dhaka">dhaka</option>
+                    <option value="dhaka">dhaka</option>
+                    <option value="dhaka">dhaka</option>
+                    <option value="dhaka">dhaka</option>
+                    <option value="dhaka">dhaka</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-group bio">
+                <label for="description">Short Bio</label>
+                <textarea
+                  name="description"
+                  id="description"
+                  cols="70"
+                  rows="5"
+                  placeholder="Bio"
+                ></textarea>
+              </div>
+              <div class="inline-form">
+                <div class="form-group">
+                  <label for="password">password</label>
+                  <input
+                    type="password"
+                    name="password"
+                    id="password"
+                    placeholder="Enter your password"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="confirmpassword">Confirm Password</label>
+                  <input
+                    type="password"
+                    name="password"
+                    id="password"
+                    placeholder="Confirm your Password"
+                  />
+                </div>
+              </div>
+
+              <div class="form-group">
+                <div class="radio-inline">
+                  <input type="checkbox" id="checkbox" name="checkbox" />
+                  <label for="checkbox">I accept the term and conditoins</label>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <button class="btn btn-reset">RESET</button>
+                <button class="btn btn-submit">SUBMIT</button>
+              </div>
+            </form>
+          </section>
+        </div>
+      </div>
+    </main>
+
+    <!-- Main content area end -->
+
+    <!-- Footer area start -->
+    <footer>
+      <hr />
+      <div class="container">
+        <div class="social-icon">
+          <a target="_blank" href="https://github.com/rashidmilon">
+            <i class="fa-brands fa-github"></i
+          ></a>
+          <a target="_blank" href="https://twitter.com/rashid__milon">
+            <i class="fa-brands fa-twitter"></i
+          ></a>
+        </div>
+
+        <div>
+          <p class="blog-description">
+            Iceberg Gatsby is a PWA, save it for offline reading. See more PWA
+            here.
+          </p>
+          <p class="blog-description">
+            Maintained by @_diogorodrigues. You can always contribute with the
+            project on Github.
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer area end -->
+  </body>
+</html>
